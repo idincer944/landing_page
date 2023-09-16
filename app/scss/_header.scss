@@ -1,4 +1,7 @@
 .header {
+    position: relative;
+    z-index: 1; 
+    
     // Hamburger Open Styles
     &.open {
         .header__toggle {
@@ -67,7 +70,7 @@
             display: block;
             text-align: center;
             color: $darkBlue;
-            padding: 0.635rem;
+            padding: 0.625rem;
         }
     }
 
